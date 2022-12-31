@@ -1,3 +1,21 @@
+macro_codeblock: macro_codeblock{
+compatible = "zmk,behavior-macro";
+label = "macro_codeblock";
+#binding-cells = <0>;
+bindings = <&sk LSHIFT>, <&kp LEFT_BRACKET>, <&kp ENTER>, <&kp ENTER>, <&sk LSHIFT>, <&kp RIGHT_BRACKET>, <&kp ENTER>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>, <&kp TAB>;
+};
+macro_inkdrop: macro_inkdrop{
+compatible = "zmk,behavior-macro";
+label = "macro_inkdrop";
+#binding-cells = <0>;
+bindings = <&sk LGUI>, <&kp SPACE>, <&kp I>, <&kp N>, <&kp K>, <&kp D>, <&kp R>, <&kp O>, <&kp P>, <&kp ENTER>;
+};
+macro_spotlight: macro_spotlight{
+compatible = "zmk,behavior-macro";
+label = "macro_spotlight";
+#binding-cells = <0>;
+bindings = <&sk LGUI>, <&kp SPACE>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
