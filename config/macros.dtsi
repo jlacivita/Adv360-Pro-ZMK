@@ -2,24 +2,28 @@ macro_function: macro_function{
 compatible = "zmk,behavior-macro";
 label = "macro_function";
 #binding-cells = <0>;
+wait-ms = <0>;
 bindings = <&kp LPAR>, <&kp RPAR>, <&kp SPACE>, <&kp EQUAL>, <&kp GT>, <&kp SPACE>, <&kp LBRC>, <&kp RBRC>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>;
 };
 macro_codeblock: macro_codeblock{
 compatible = "zmk,behavior-macro";
 label = "macro_codeblock";
 #binding-cells = <0>;
+wait-ms = <0>;
 bindings = <&sk LSHIFT>, <&kp LEFT_BRACKET>, <&kp ENTER>, <&kp ENTER>, <&sk LSHIFT>, <&kp RIGHT_BRACKET>, <&kp ENTER>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>, <&kp TAB>;
 };
 macro_inkdrop: macro_inkdrop{
 compatible = "zmk,behavior-macro";
 label = "macro_inkdrop";
 #binding-cells = <0>;
+wait-ms = <0>;
 bindings = <&sk LGUI>, <&kp SPACE>, <&kp I>, <&kp N>, <&kp K>, <&kp D>, <&kp R>, <&kp O>, <&kp P>, <&kp ENTER>;
 };
 macro_spotlight: macro_spotlight{
 compatible = "zmk,behavior-macro";
 label = "macro_spotlight";
 #binding-cells = <0>;
+wait-ms = <0>;
 bindings = <&sk LGUI>, <&kp SPACE>;
 };
 macro_quotes: macro_quotes{
