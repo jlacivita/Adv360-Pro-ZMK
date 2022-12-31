@@ -1,3 +1,9 @@
+macro_function: macro_function{
+compatible = "zmk,behavior-macro";
+label = "macro_function";
+#binding-cells = <0>;
+bindings = <&kp LPAR>, <&kp RPAR>, <&kp SPACE>, <&kp EQUAL>, <&kp GT>, <&kp SPACE>, <&kp LBRC>, <&kp RBRC>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>, <&kp LEFT>;
+};
 macro_codeblock: macro_codeblock{
 compatible = "zmk,behavior-macro";
 label = "macro_codeblock";
